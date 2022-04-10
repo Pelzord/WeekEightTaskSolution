@@ -1,12 +1,7 @@
 # WeekEightTaskSolution
 
 ## Footer
-* the footer part of the project was created by Dauda Azeez and supported by Osahon
+* the footer part of the project was created by Dauda Azeez and supported by Osahon and Emmanuel
+## Header
+* Azeez, I worked on the header and some part of the project which am done with the responsiveness of the part
 
-##
-* A section has been added my Emmanuel
-
-####
-opened by osahon
-###
-* This file was modified by Azeez

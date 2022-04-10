@@ -2,7 +2,33 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="contain">
+    <section class="image-holder">
+        <h2 class="first-text">Renting cars have never been this easy</h2>
+        <p class="second-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+
+        <form class="search search-bar" method="post">
+            <div class="pick ">
+                <p>Pick Up Location</p>
+                <input type="text" class="select-item"/>
+                <span></span>
+            </div>
+            <div class="pick pickup_date">
+                <p>Pick Up Date</p>
+                <input type="date" class="select-item"/>
+                <span></span>
+            </div>
+            <div class="pick return_date">
+                <p>Return Date</p>
+                <input type="date" class="select-item"/>
+                <span></span>
+            </div>
+            <input class="search-btn" type="submit" value="Search for Cars" />
+        </form>
+    </section>
+
+    <!-- <"Trusted-companies"> -->
+    <div class="trusted-companies">
+        <img src="~/image/Trusted_By_Section.png">
+    </div>
 </div>
