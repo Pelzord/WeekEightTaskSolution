@@ -5,6 +5,10 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeekEightSolution", "WeekEightSolution\WeekEightSolution.csproj", "{4A1A3F83-72CE-4549-BDE0-0FB08538AD55}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{89DCE62D-501F-4B17-86A2-D6140A7F109E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{4A8488AF-B707-4C80-BB6B-AD6B6E0B3E78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{4A1A3F83-72CE-4549-BDE0-0FB08538AD55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A1A3F83-72CE-4549-BDE0-0FB08538AD55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A1A3F83-72CE-4549-BDE0-0FB08538AD55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A8488AF-B707-4C80-BB6B-AD6B6E0B3E78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A8488AF-B707-4C80-BB6B-AD6B6E0B3E78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A8488AF-B707-4C80-BB6B-AD6B6E0B3E78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A8488AF-B707-4C80-BB6B-AD6B6E0B3E78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A8488AF-B707-4C80-BB6B-AD6B6E0B3E78} = {89DCE62D-501F-4B17-86A2-D6140A7F109E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2DDCD69E-013A-4C2C-8E37-5C8054EF9093}
