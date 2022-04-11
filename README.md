@@ -13,5 +13,8 @@
 ### Installations
 1. Sql Client which is a nuget package was installed by Osahon
 
+####
+* new lecture on basics of git and github
+
 
 
